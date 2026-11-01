@@ -1,0 +1,28 @@
+## repo:socketio/socket.io-client is:issue reconnection delay -> 19
+   IS 1605 closed 2024-01-24 connection error
+   IS 1436 closed 2021-01-11 Socket keeps connecting and disconnecting in web app
+   IS 700 closed 2014-06-17 Socket.io Client doesn't (re)emit without page reload
+   IS 1301 closed 2019-05-09 Socket.IO shows inconsistent activity while connecting to AWS , sometimes connection will happen suc
+   IS 1443 closed 2021-02-12 Docs for 'disconnect' event are wrong
+   IS 1214 closed 2018-06-22 What's the difference between io.Manager and io.Socket? 
+   IS 854 closed 2015-06-21 socket.io polling helpless for redirects
+   IS 1088 closed 2017-03-08 Socket.io breaks webpack --watch when using devtool and some external plugins
+   IS 675 closed 2014-05-31 reconnect client
+   IS 472 closed 2012-10-01 Reconnection limit not properly checked and reconnect_failed event not fired
+   IS 351 closed 2011-12-18 Node connection slow on latest Chrome version (16.*)
+   IS 413 closed 2012-04-09 IE6 handshake error
+   IS 293 closed 2011-09-02 socket.io doesn't not work in offline apps
+   IS 372 closed 2012-01-19 Cannot connect from node
+   IS 311 closed 2011-09-27 Can't get Node to emit connect_failed or reconnect_failed if server is down
+   IS 237 closed 2011-07-12 Duplicate handshake & connection on reconnect
+   IS 326 closed 2011-11-01 reconnection delay - exponential back off not resetting properly
+   IS 95 closed 2011-03-06 Reconnection support
+   IS 141 closed 2011-04-26 Reconnect forever
+## repo:socketio/socket.io-client is:pr reconnection delay -> 7
+   PR 1414 open 2020-11-27 feat: add options for controlling buffer usage
+   PR 1483 closed 2021-07-27 fix reconnection delay times not setting correctly
+   PR 782 closed 2014-11-12 Fix socket.io issue #1862
+   PR 564 closed 2013-07-17 reconnection fixes
+   PR 617 closed 2014-02-09 Expotential backoff for reconnection
+   PR 531 closed 2013-03-22 Reconnectforever
+   PR 645 closed 2014-03-11 Reconnects in open if it fails

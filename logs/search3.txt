@@ -1,0 +1,99 @@
+## repo:socketio/socket.io is:issue Infinity -> 30
+   IS 5299 open 2025-02-18 Socket.IO stops working randomly until page refresh
+   IS 5504 open 2026-05-26 A client receiving an `Object` with more than 10 binary fields closes the connection
+   IS 4880 open 2023-11-26 Socket recovery works only once
+   IS 3858 closed 2021-03-26 Transport close after 1 hour in socket.io 3.1.2 
+   IS 5058 closed 2024-06-24 closeOnBeforeunload not working properly after upgrading to socketio v4.7.5
+   IS 4793 closed 2023-08-12 Setting retries to Infinity causes emit to break but volatile.emit continues to work
+   IS 5090 closed 2017-07-26 Why engine.io never try the second transport
+   IS 716 closed 2012-01-11 Reconnect on error
+   IS 3259 closed 2018-05-26 JS exceptions thrown while just idling (WebSocket is already in CLOSING or CLOSED state.)
+   IS 4041 closed 2021-08-06 server disconnects when sending big data, server -> client
+   IS 3547 closed 2020-02-06 React native sometimes no data transmission problem
+   IS 3507 closed 2019-11-02 Prevent socket io from emitting ping timeout for inactive or not focused browser page in mobile brow
+   IS 4032 closed 2021-07-27 Stop socket.io complaining in the browser when the server is down
+   IS 3938 closed 2021-05-21 Frequent connections and disconnections after an existing connection broken due to network issues
+   IS 1590 closed 2014-06-04 socket.io 1.0 with titanium (appcelerator)
+   IS 3231 closed 2018-04-26 Socket.io Server answers sometimes with 404 to client
+   IS 3192 closed 2018-03-07 Taking long on socket connection (2nd time)
+   IS 2476 closed 2016-03-09 The right way for a client to reconnect after the server does a socket.disconnect( true )
+   IS 3606 closed 2020-06-04 the socket handshake error on virtualbox vm
+   IS 3209 closed 2018-03-21 failed: Connection closed before receiving a handshake response
+   IS 2850 closed 2017-02-03 CORS
+   IS 2387 closed 2016-01-13 Messages dropped somewhere in client-side parsing.
+   IS 2611 closed 2016-07-11 Infinity transmitted as null
+   IS 1011 closed 2012-08-30 Alternate Flash Policy Port  - needs documenting
+   IS 1592 closed 2014-06-05 warn: websocket parser forced user kick: max buffer size reached
+   IS 1409 closed 2014-02-07 Socket.io authorization on reconnect
+   IS 648 closed 2011-11-18 Takes very long for android devices to receive a 'disconnect' event after terminating the server pro
+   IS 1157 closed 2013-02-11 The insanity of unbounded exponential backoff
+   IS 652 closed 2011-11-19 reconnect_failed gets never fired
+   IS 438 closed 2011-08-01 High rate of "client not handshaken should reconnect"
+## repo:socketio/socket.io is:pr Infinity -> 1
+   PR 226 closed 2011-05-27 Allow further configurability of reconnect: add option maxReconnectionDelay
+## repo:socketio/socket.io is:issue NaN reconnect -> 0
+## repo:socketio/socket.io is:pr NaN reconnect -> 0
+## repo:socketio/socket.io is:issue reconnection overflow -> 2
+   IS 2297 closed 2015-11-04 why socket.disconnect() on client side doesn't fire disconnect event on the server?
+   IS 438 closed 2011-08-01 High rate of "client not handshaken should reconnect"
+## repo:socketio/socket.io is:pr reconnection overflow -> 0
+## repo:socketio/socket.io is:issue reconnect attempts delay zero -> 0
+## repo:socketio/socket.io is:pr reconnect attempts delay zero -> 0
+## repo:socketio/socket.io is:issue reconnect without delay -> 24
+   IS 5197 open 2024-09-24 socket.io-client 4.8.0 automatic reconnect is not working
+   IS 5357 open 2025-06-11 Long-lived connections experience false disconnections due to timer reliability issues
+   IS 5117 open 2023-05-25 Socket.io client keeps disconnecting and reconnecting at a fixed interval because of ping timeout
+   IS 5299 open 2025-02-18 Socket.IO stops working randomly until page refresh
+   IS 4891 open 2023-12-07 Socket Disconnection issue on Specific Mobile Network on JIO 5g network in INDIA
+   IS 2924 closed 2017-04-25 Safari dropping web socket connection due to inactivity when page not in focus
+   IS 2769 closed 2016-11-28 Socket.io disconnect with ping timeout randomly
+   IS 5135 closed 2024-07-15 Heartbeat detection is delayed when timers throttled, and messages can be sent over expired connecti
+   IS 3025 closed 2017-08-03 Continual “transport close” on client
+   IS 3191 closed 2018-03-06 transport close - ping has not timeout
+   IS 2163 closed 2015-06-29 Disconnect not always firing
+   IS 474 closed 2011-08-23 Double connect
+   IS 430 closed 2011-07-28 Multiple sockets open after reconnect
+   IS 3477 closed 2019-08-15 Memory leak
+   IS 2685 closed 2016-09-20 socket connects and disconnects 
+   IS 635 closed 2011-11-11 client-side disconnect is not detected
+   IS 1590 closed 2014-06-04 socket.io 1.0 with titanium (appcelerator)
+   IS 3250 closed 2018-05-17 Roadmap for v3
+   IS 3613 closed 2020-06-20 Delay after 3rd request with socket.io
+   IS 2619 closed 2016-07-22 I'm still getting messages even after leave the room.
+   IS 939 closed 2012-07-03 balancer without sticky sessions and more than 1 process
+   IS 996 closed 2012-08-17 warn: client not handshaken client should reconnect
+   IS 438 closed 2011-08-01 High rate of "client not handshaken should reconnect"
+   IS 816 closed 2012-04-06 (0.9.5)XHR polling - multiple/simultaneous requests cause data corruption and "transport discarded" 
+## repo:socketio/socket.io is:pr reconnect without delay -> 0
+## repo:socketio/socket.io is:issue MAX_VALUE -> 0
+## repo:socketio/socket.io is:pr MAX_VALUE -> 0
+## repo:socketio/socket.io-client is:issue Infinity -> 18
+   IS 1245 closed 2018-10-30 Can't connect via socket.io-client on react-native
+   IS 1193 closed 2018-03-04 Unable to connect and reconnect on react native
+   IS 1231 closed 2018-09-07 if randomizationFactor === 0, that will not work!
+   IS 1254 closed 2018-12-21 version 2.2 does not work with react native
+   IS 700 closed 2014-06-17 Socket.io Client doesn't (re)emit without page reload
+   IS 1301 closed 2019-05-09 Socket.IO shows inconsistent activity while connecting to AWS , sometimes connection will happen suc
+   IS 1403 closed 2020-11-14 Error: attempt to invoke virtual method boolean on a null object reference react native
+   IS 641 closed 2014-03-05 No 'Access-Control-Allow-Origin' header is present on the requested resource.
+   IS 1369 closed 2020-06-04  the socket handshake error on virtualbox vm
+   IS 1266 closed 2019-01-22 Connect working only if run code from Node repl
+   IS 929 closed 2016-01-05 `reconnectionAttempts` is not listed in the options for the client API
+   IS 1007 closed 2016-10-16 socket request wasn't sent on iOS 10.
+   IS 712 closed 2014-06-26 Doesnt connect with https from Node client
+   IS 978 closed 2016-06-30 is it support below IE 9?
+   IS 1088 closed 2017-03-08 Socket.io breaks webpack --watch when using devtool and some external plugins
+   IS 737 closed 2014-07-30 Client socket.disconnect does not stop reconnection attempts
+   IS 226 closed 2011-07-05 How to disable the "exponential back off algorithm" for reconnect?
+   IS 141 closed 2011-04-26 Reconnect forever
+## repo:socketio/socket.io-client is:pr Infinity -> 3
+   PR 1483 closed 2021-07-27 fix reconnection delay times not setting correctly
+   PR 1454 closed 2021-03-18 fix reconnectionAttempts not being honoured
+   PR 299 closed 2011-09-11 allow infinite reconnection attempts
+## repo:socketio/socket.io-client is:issue NaN -> 5
+   IS 1468 closed 2021-05-13 upgrading from 4.0.2 to 4.1.0 causes an "Uncaught Error: unknown packet type NaN"
+   IS 868 closed 2015-07-30 Recursive messages on server socket console when trying to connect a node client socket
+   IS 712 closed 2014-06-26 Doesnt connect with https from Node client
+   IS 916 closed 2015-11-27 TypeError: Cannot set property 'NaN' of undefined
+   IS 874 closed 2015-08-23 Installation errors on io.js v3.1.0
+## repo:socketio/socket.io-client is:pr NaN -> 0

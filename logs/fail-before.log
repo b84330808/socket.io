@@ -1,0 +1,185 @@
+
+> socket.io-client@4.8.4 test
+> npm run format:check && npm run compile && if test "$BROWSERS" = "1" ; then npm run test:browser; else npm run test:node; fi
+
+
+> socket.io-client@4.8.4 format:check
+> prettier --check "*.js" "lib/**/*.ts" "test/**/*.ts" "support/**/*.js"
+
+Checking formatting...
+All matched files use Prettier code style!
+
+> socket.io-client@4.8.4 compile
+> rimraf ./build && tsc && tsc -p tsconfig.esm.json && ./postcompile.sh
+
+
+> socket.io-client@4.8.4 test:node
+> mocha --import=tsx --require test/support/hooks.ts --exit test/index.ts
+
+
+
+  url
+    ✔ works with undefined
+    ✔ works with relative paths
+    ✔ works with no protocol
+    ✔ works with no schema
+    ✔ forces ports for unique url ids
+    ✔ identifies the namespace
+    ✔ works with ipv6
+    ✔ works with ipv6 location
+    ✔ works with a custom path
+
+  connection
+    ✔ should connect to localhost (64ms)
+    ✔ should not connect when autoConnect option set to false
+    ✔ should start two connections with same path
+    ✔ should start two connections with same path and different querystrings
+    ✔ should start two connections with different paths
+    ✔ should start a single connection with different namespaces
+    ✔ should work with acks
+    ✔ should receive date with ack
+    ✔ should work with false
+    ✔ should receive utf8 multibyte characters
+    ✔ should connect to a namespace after connection established
+    ✔ should open a new namespace after connection gets closed (48ms)
+    ✔ should reconnect by default (147ms)
+    ✔ should reconnect manually (48ms)
+    ✔ should reconnect automatically after reconnecting manually (149ms)
+    ✔ should attempt reconnects after a failed reconnect (84ms)
+    ✔ reconnect delay should increase every time (693ms)
+    1) reconnect delay should not drop to zero after many attempts
+    ✔ should not reconnect when force closed (102ms)
+    ✔ should stop reconnecting when force closed (109ms)
+    ✔ should reconnect after stopping reconnection
+    ✔ should stop reconnecting on a socket and keep to reconnect on another (184ms)
+    ✔ should try to reconnect twice and fail when requested two attempts with immediate timeout and reconnect enabled
+    ✔ should fire reconnect_* events on manager
+    ✔ should fire reconnecting (on manager) with attempts number when reconnecting twice
+    ✔ should not try to reconnect and should form a connection when connecting to correct port with default timeout (120ms)
+    ✔ should connect while disconnecting another socket
+    ✔ should emit a connect_error event when reaching a Socket.IO server in v2.x
+    ✔ should not close the connection when disconnecting a single socket (223ms)
+    ✔ should stop trying to reconnect (122ms)
+    ✔ should try to reconnect twice and fail when requested two attempts with incorrect address and reconnect enabled (40ms)
+    ✔ should not try to reconnect with incorrect port when reconnection disabled (103ms)
+    ✔ should still try to reconnect twice after opening another socket asynchronously (41ms)
+    ✔ should emit date as string
+    ✔ should emit date in object
+    ✔ should get binary data (as an ArrayBuffer)
+    ✔ should send binary data (as an ArrayBuffer)
+    ✔ should send binary data (as an ArrayBuffer) mixed with json
+    ✔ should send events with ArrayBuffers in the correct order
+    ✔ should reopen a cached socket (47ms)
+    ✔ should not reopen a cached but active socket
+    ✔ should not reopen an already active socket
+    ✔ should close the engine upon decoding exception (74ms)
+    reconnect timeout
+FakeTimers: clearTimeout was invoked to clear a native timer instead of one created by this library.
+To automatically clean-up native timers, use `shouldClearNativeTimers`.
+      ✔ should use overridden setTimeout by default (506ms)
+      ✔ should use native setTimeout with useNativeSetTimers (606ms)
+
+  socket
+    ✔ should have an accessible socket id equal to the server-side socket id (default namespace)
+    ✔ should have an accessible socket id equal to the server-side socket id (custom namespace)
+    ✔ clears socket.id upon disconnection
+    ✔ doesn't fire an error event if we force disconnect in opening state (302ms)
+    ✔ fire a connect_error event when the connection cannot be established
+    ✔ fire a connect_error event on open timeout (polling)
+    ✔ fire a connect_error event on open timeout (websocket)
+    ✔ doesn't fire a connect_error event when the connection is already established (301ms)
+    ✔ should change socket.id upon reconnection (45ms)
+    ✔ should enable compression by default
+    ✔ should disable compression
+    ✔ should fire an error event on middleware failure from custom namespace
+    ✔ should fire a connect_error event with error data on middleware failure
+    ✔ should not try to reconnect after a middleware failure (102ms)
+    ✔ should properly disconnect then reconnect (136ms)
+    ✔ should throw on reserved event
+    ✔ should emit events in order
+    ✔ should emit an event and wait for the acknowledgement
+    query option
+      ✔ should accept an object (default namespace)
+      ✔ should accept a query string (default namespace)
+      ✔ should accept an object
+      ✔ should accept a query string
+      ✔ should properly encode the parameters
+    auth option
+      ✔ should accept an object
+      ✔ should accept an function
+    volatile packets
+      ✔ should discard a volatile packet when the socket is not connected
+      ✔ should discard a volatile packet when the pipe is not ready (111ms)
+      ✔ should send a volatile packet when the socket is connected and the pipe is ready (202ms)
+    onAny
+      ✔ should call listener
+      ✔ should prepend listener
+      ✔ should remove listener
+    onAnyOutgoing
+      ✔ should call listener
+      ✔ should call listener with binary data
+      ✔ should prepend listener
+      ✔ should remove listener
+    timeout
+      ✔ should timeout after the given delay when socket is not connected (51ms)
+      ✔ should timeout when the server does not acknowledge the event (52ms)
+      ✔ should timeout when the server does not acknowledge the event in time (202ms)
+      ✔ should not timeout when the server does acknowledge the event
+      ✔ should timeout when the server does not acknowledge the event (promise) (51ms)
+      ✔ should not timeout when the server does acknowledge the event (promise)
+      ✔ should use the default timeout value (53ms)
+      acknowledgement upon disconnection
+        ✔ should not ack upon disconnection (callback) (123ms)
+        ✔ should ack with an error upon disconnection (callback & timeout)
+        ✔ should ack with an error upon disconnection (callback & ackTimeout)
+        ✔ should ack with an error upon disconnection (promise)
+        ✔ should ack with an error upon disconnection (promise & timeout)
+        ✔ should not discard an unsent ack (callback) (144ms)
+    throttled timer
+      ✔ should buffer the event and send it upon reconnection (50ms)
+
+  autoUnref option
+    ✔ should stop once the timer is triggered (246ms)
+    ✔ should stop once the timer is triggered (even when trying to reconnect) (221ms)
+    ✔ should stop once the timer is triggered (polling) (226ms)
+    ✔ should stop once the timer is triggered (websocket) (231ms)
+    ✔ should not stop with autoUnref set to false (105ms)
+
+  connection state recovery
+    ✔ should have an accessible socket id equal to the server-side socket id (default namespace) (54ms)
+
+  retry
+    ✔ should preserve the order of the packets
+    ✔ should fail when the server does not acknowledge the packet (224ms)
+    ✔ should not drain the queue while the socket is disconnected (124ms)
+    ✔ should not emit a packet twice in the 'connect' handler (104ms)
+
+
+  112 passing (8s)
+  1 failing
+
+  1) connection
+       reconnect delay should not drop to zero after many attempts:
+     Error: expected 0 to equal 5000
+      at Assertion.assert (node_modules/expect.js/index.js:96:13)
+      at Assertion.be.Assertion.equal (node_modules/expect.js/index.js:216:10)
+      at Assertion.<computed> [as be] (node_modules/expect.js/index.js:69:24)
+      at Context.<anonymous> (test/connection.ts:289:37)
+      at process.processImmediate (node:internal/timers:484:21)
+
+
+
+npm error Lifecycle script `test:node` failed with error:
+npm error code 1
+npm error path packages/socket.io-client
+npm error workspace socket.io-client@4.8.4
+npm error location packages/socket.io-client
+npm error command failed
+npm error command sh -c mocha --import=tsx --require test/support/hooks.ts --exit test/index.ts
+npm error Lifecycle script `test` failed with error:
+npm error code 1
+npm error path packages/socket.io-client
+npm error workspace socket.io-client@4.8.4
+npm error location packages/socket.io-client
+npm error command failed
+npm error command sh -c npm run format:check && npm run compile && if test "$BROWSERS" = "1" ; then npm run test:browser; else npm run test:node; fi

@@ -1,0 +1,97 @@
+total 94
+5581 2026-10-25 fix: allow socketsJoin/socketsLeave/disconnectSockets to be awaited
+5565 2026-09-29 docs: fix broken links in protocol docs and angular example
+5557 2026-09-12 test(packet): add unit test suite for packet payload buffer size validation
+5553 2026-09-03 fix: upgrade socket.io-parser to 4.2.7, 3.4.5, 3.3.6 (CVE-2026-69185)
+5550 2026-08-29 fix(eio): report oversized polling payloads
+5549 2026-08-29 test: quote process.execPath and fixture path to support paths with spaces
+5548 2026-08-29 types(client): add and export ExtendedError for connect_error event
+5546 2026-08-27 fix(client): discard timed-out buffered packets
+5545 2026-08-26 fix(parser): reject a namespace containing a comma
+5544 2026-08-24 fix(types): include the data attribute on the connect_error event
+5540 2026-08-22 fix(engine.io): run the polling write callback when the client aborts a compressed response
+5537 2026-08-17 fix(sio): parse Engine.v3 namespace query without Object.fromEntries
+5536 2026-08-17 fix(eio): use Node 10-safe query parser on the uWS server
+5535 2026-08-17 docs(examples): update create-react-app example docs links
+5533 2026-08-11 fix(socket.io-client): export reserved-events types to fix ts(4023) on declaration emit
+5530 2026-07-28 docs: fix broken download badge link and grammar typo
+5528 2026-07-16 fix(engine): support Node 10 query parsing
+5524 2026-07-13 fix(eio,eio-client): do not close the connection while packets are still being received
+5523 2026-07-13 fix(eio): do not close the connection if other packets are received while waiting for a ping/pong
+5522 2026-07-09 docs: document dropping socket middleware packets
+5521 2026-07-07 fix: clean up ack callback on emitWithAck timeout
+5519 2026-07-02 fix(sio): reset regex lastIndex when matching dynamic namespaces
+5518 2026-07-02 fix(parser): honor toJSON() when deconstructing a binary packet
+5517 2026-06-24 docs: document main namespace shortcuts
+5508 2026-06-08 docs(engine.io): correct maxHttpBufferSize default in JSDoc (1e6 / 1 MB)
+5506 2026-06-01 fix: off-by-one in binary attachment array sizing (#5504)
+5502 2026-05-24 chore(deps): ws@8.21.0 (fixes DoS vulnerability)
+5501 2026-05-23 fix(engine.io-client): preserve caller transport options
+5498 2026-05-12 docs: add middleware packet rejection documentation
+5495 2026-05-01 fix(eio): make _query optional in EngineRequest
+5482 2026-03-31 fix(engine.io): make _query optional in EngineRequest
+5481 2026-03-30 docs: fix various typos in test and documentation
+5474 2026-03-15 Kimi
+5473 2026-03-15 Glm
+5472 2026-03-15 Seed
+5471 2026-03-10 fix(engine.io-client): prevent mutation of user-provided options
+5469 2026-03-10 fix(types): preserve transport literal suggestions in engine.io-client
+5461 2026-02-23 Fix #4984: Clean up socket.acks on emitWithAck timeout to prevent memory leak
+5460 2026-02-21 fix(engine.io): emit initial_headers and headers events in uServer
+5459 2026-02-21 feat(socket.io): allow passing a Set to to(), in(), and except()
+5458 2026-02-21 fix(engine.io): add @types/ws as a dependency
+5457 2026-02-21 fix(adapter): do not skip local broadcast when publishAndReturnOffset throws
+5453 2026-02-15 fix(types): allow emitWithAck for events with void callbacks
+5452 2026-02-14 fix: clean up socket.acks on broadcastWithAck timeout
+5449 2026-01-22 chore: Update outdated GitHub Actions versions
+5442 2026-01-10 fix: cleanup pending acks on timeout to prevent memory leak
+5440 2026-01-06 Update test-suite.js
+5439 2026-01-05 chore(deps): upgrade to ws@8.20.1
+5422 2025-11-22 docs(engine.io): improve JSDoc completeness in server.ts
+5421 2025-11-22 Chore/engineio fix websocket comment formatting
+5420 2025-11-22 chore(engine.io): fix comment formatting inconsistencies in socket.ts
+5407 2025-10-29 test
+5392 2025-09-10 Export DisconnectDescription type directly from 'socket.io-client'
+5389 2025-09-03 change
+5387 2025-09-02 drop CJS, drop IE, rebaseline platforms, enforce strict TS
+5379 2025-08-11 fix(socket.io): update socket.io-adapter@2.5.5 and engine.io@6.6.4 in socket.io
+5364 2025-06-27 improve type annotations and comments
+5362 2025-06-17 Added argument to drain that provides the list of packets that are drained
+5348 2025-05-16 Fix connection state recovery
+5344 2025-04-30 fix(socket.io): improve `close()` function
+5341 2025-04-29 Update messageStore.js to fix Issue:It it duplicating the self messag…
+5335 2025-04-22 chore(deps): ws@8.18.3, debug@4.4.1
+5320 2025-03-29 license 
+5317 2025-03-20 fix(socket.io-adapter/#4645): message emits to all the rooms, if an empty array of rooms provided
+5315 2025-03-14 Move WebSocketCtor reference inside createSocket method to support WebSocket mocking
+5279 2025-01-19 Back end
+5278 2025-01-19 Front end
+5266 2024-12-20 exclude the sender during the broadcast process, even if the sender has left the default room
+5259 2024-12-12 Drain queue before emitting connect event.
+5241 2024-11-27 fix: engine.io-client transport _port handle error
+5239 2024-11-26 add package.json entry point in socket.io package.json
+5230 2024-11-18 Create black shutter
+5220 2024-10-31 fix: correctly consume `ws` package
+5205 2024-10-07 chore(deps): update cookie to 0.7.2
+5200 2024-09-26 specify return type for node websocket create funciton
+5198 2024-09-25 comment: write js docs in on
+5196 2024-09-24 fix: make Namespace._fns private
+5195 2024-09-24 fix: make Namespace._fns private
+5188 2024-09-12 refactor: default transport in type
+5169 2024-08-12 remove prettier v2
+5168 2024-08-12 link to in-monorepo package versions 
+5158 2024-08-07 fix: track socket before run middlewares
+5134 2024-07-15 fix: Check if missed heartbeat synchronously before sending message
+5057 2024-06-24 docs: fix conjunction with fastify example
+5052 2024-06-18 fix: bumps ws to version 8.17.1 to fix CVE-2024-37890
+5035 2024-05-24 Fixes #5034 - change private property io.httpServer to a public property
+5017 2024-05-03 Update store.ts
+5009 2024-04-25 fix: ParentNamespace adapter broadcast bug
+4971 2024-03-11 correctly await async close on adapters
+4963 2024-02-28 Create tea.yaml
+4962 2024-02-28 Create tea.yaml
+4950 2024-02-18 parent-namespace: change inline Adapter-like to file-private class
+4931 2024-01-23 Add emitWithAck method to RemoteSocket class
+4915 2024-01-05 Fix: Calling io.emit("event") with events that have no arguments results in TypeScript errors
+total 94
+total 94

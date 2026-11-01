@@ -1,0 +1,36 @@
+total 34
+5579 2026-10-20 fix(eio): do not access the uWS request after an async middleware
+5578 2026-10-15 Remediate 98 CVEs across 26 packages (npm)
+5577 2026-10-15 fix(sio-client): export acknowledgement decorator for declaration emit
+5576 2026-10-15 feat(socket.io-client): expose the standalone ESM bundle through the "./browser" subpath export
+5575 2026-10-14 fix(engine.io-client): send the close packet when closing mid-handshake
+5574 2026-10-13 fix(eio-client): keep '=' characters in query values
+5573 2026-10-13 chore: raise engine.io minimum to ~6.6.10 for published security fixes
+5570 2026-10-09 Fix postgres emitter to work with latest version
+5569 2026-10-07 test(sio-client): cover retry queue reconnection and exhaustion
+5568 2026-10-05 fix(eio-client/types): avoid MapIterator in generated typings
+5566 2026-10-01 fix(sio-client): reset the flags once a packet is queued
+5564 2026-09-27 fix(engine.io): catch synchronous middleware errors
+5563 2026-09-24 fix(eio): make the upgrade response an EventEmitter
+5561 2026-09-22 fix(sio): isolate recovery offsets across child namespaces
+5560 2026-09-20 fix(client): discard timed-out packets from the Engine.IO buffer
+5559 2026-09-16 harden: add parameterized queries in index.ts
+5547 2026-08-28 Workaround to avoid false positives when detecting an offset
+5541 2026-08-23 fix: allow session recovery even if no event was received
+5539 2026-08-22 fix(adapter): do not let volatile packets break connection state recovery
+5534 2026-08-13 Expose kResponseHeaders via Symbol.for for caller-provided upgrade headers
+5531 2026-08-01 Fix event dispatch before disconnection
+5529 2026-07-23 docs: replace broken Slack badges with Discord
+5526 2026-07-14 fix(eio): expose EventEmitter interface on WebSocket upgrade response
+5525 2026-07-13 fix(eio,eio-client): handle close packets consistently across transports
+5507 2026-06-05 feat(socket.io): allow passing a Set to to(), in(), and except()
+5499 2026-05-17 fix(engine.io-client): include query params in WebTransport URI
+5479 2026-03-19 feat(sio): add ackTimeout option and enable emitWithAck on io/namespace
+5478 2026-03-19 feat: emit a "session-expiry" event when a session has expired
+5447 2026-01-18 Fix Acknowledgment Callback Signature with ackTimeout Option
+5432 2025-12-24 Fix/socketsjoin race condition
+5424 2025-12-01 feat(socket.io): leave multiple rooms at once
+5331 2025-04-20 Fix ArrayBuffer detached error with uWebSockets.js
+4904 2023-12-23 Adding a Vite+React implementation of the Private Messaging example
+4885 2023-11-30 Adding support for middlewares intercepting outgoing events
+total 34

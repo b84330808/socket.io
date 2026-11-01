@@ -1,0 +1,77 @@
+## repo:socketio/socket.io is:issue backoff -> 7
+   IS 5357 open 2025-06-11 Long-lived connections experience false disconnections due to timer reliability issues
+   IS 5106 closed 2020-12-06 questions about the source-code
+   IS 3259 closed 2018-05-26 JS exceptions thrown while just idling (WebSocket is already in CLOSING or CLOSED state.)
+   IS 2743 closed 2016-11-03 Demo Chat from Main Site doesn't work
+   IS 976 closed 2012-07-31 socket.io crashes Mobile Safari on iOS
+   IS 1157 closed 2013-02-11 The insanity of unbounded exponential backoff
+   IS 1380 closed 2013-12-25 Many connections in state CLOSE_WAIT and FIN_WAIT2 without release
+## repo:socketio/socket.io is:pr backoff -> 0
+## repo:socketio/socket.io is:issue backo2 -> 16
+   IS 3259 closed 2018-05-26 JS exceptions thrown while just idling (WebSocket is already in CLOSING or CLOSED state.)
+   IS 3250 closed 2018-05-17 Roadmap for v3
+   IS 2665 closed 2016-09-03 node server is not running. I think problem with npm install. Not able to find any resolution. pleas
+   IS 2250 closed 2015-09-18 Issue installing v1.3.6 on mac
+   IS 2272 closed 2015-10-09 gyp ERR! configure error - Phyton required? 
+   IS 2215 closed 2015-08-20 Error: `C:\Program Files (x86)\MSBuild\12.0\bin\msbuild.exe` failed with exit code: 1
+   IS 2132 closed 2015-05-27 npm install socket.io error
+   IS 2315 closed 2015-11-18 Installing socket.io via NPM puts all dependancies in same folder
+   IS 2213 closed 2015-08-18 Error on installing socket.io - iojs 3.0.0
+   IS 2277 closed 2015-10-13 Install issue with NPM
+   IS 2263 closed 2015-09-28 [warnings] Optional deps fail installing socket.io v1.3.7 on Node 0.12.7 (OSX)
+   IS 2228 closed 2015-09-09 Node v4.0.0 - Build failing
+   IS 2138 closed 2015-05-31 Building failed with iojs 2.1.0 with vs 2013
+   IS 2278 closed 2015-10-14 install the latest version in centos on node 4.2.1 npm 3.3.6 failed
+   IS 2072 closed 2015-04-02 Socket.io with npm on windows 8.1
+   IS 2056 closed 2015-03-17 Can't install on Windows with Node 0.12
+## repo:socketio/socket.io is:pr backo2 -> 1
+   PR 2256 closed 2015-09-21 Build on io.js v1-3 and latest node (v4)
+## repo:socketio/socket.io is:issue backo -> 0
+## repo:socketio/socket.io is:pr backo -> 0
+## repo:socketio/socket.io is:issue reconnection delay NaN -> 0
+## repo:socketio/socket.io is:pr reconnection delay NaN -> 0
+## repo:socketio/socket.io is:issue backoff Infinity -> 2
+   IS 3259 closed 2018-05-26 JS exceptions thrown while just idling (WebSocket is already in CLOSING or CLOSED state.)
+   IS 1157 closed 2013-02-11 The insanity of unbounded exponential backoff
+## repo:socketio/socket.io is:pr backoff Infinity -> 0
+## repo:socketio/socket.io is:issue overflow reconnect -> 4
+   IS 3704 closed 2020-11-24 Perpetual https disconnections over HTTP/2 (due to missing "Keep-Alive" header?)
+   IS 2769 closed 2016-11-28 Socket.io disconnect with ping timeout randomly
+   IS 2338 closed 2015-12-08 Simultaneous connections error timeout Windows Server 2008
+   IS 438 closed 2011-08-01 High rate of "client not handshaken should reconnect"
+## repo:socketio/socket.io is:pr overflow reconnect -> 0
+## repo:socketio/socket.io is:issue randomizationFactor -> 3
+   IS 5299 open 2025-02-18 Socket.IO stops working randomly until page refresh
+   IS 4880 open 2023-11-26 Socket recovery works only once
+   IS 5288 closed 2025-02-04 Firefox CORS error during Socket.IO reconnection while Chrome works fine
+## repo:socketio/socket.io is:pr randomizationFactor -> 0
+## repo:socketio/socket.io is:issue reconnectionDelayMax -> 28
+   IS 5197 open 2024-09-24 socket.io-client 4.8.0 automatic reconnect is not working
+   IS 5299 open 2025-02-18 Socket.IO stops working randomly until page refresh
+   IS 5307 open 2025-02-26 TS: Exported variable X has or is using name Y from external module Z but cannot be named.ts(4023)
+   IS 5117 open 2023-05-25 Socket.io client keeps disconnecting and reconnecting at a fixed interval because of ping timeout
+   IS 5246 open 2024-11-29 Socket disconnect event doesn't always fire
+   IS 5282 open 2025-01-23 Connection State Recovery fails for long-lived connections
+   IS 4880 open 2023-11-26 Socket recovery works only once
+   IS 5288 closed 2025-02-04 Firefox CORS error during Socket.IO reconnection while Chrome works fine
+   IS 5419 closed 2025-11-20 Redis stream, state recovery on multiple offline return same last value (no update offset)
+   IS 5334 closed 2025-04-22 Issue with emitWithAck
+   IS 5058 closed 2024-06-24 closeOnBeforeunload not working properly after upgrading to socketio v4.7.5
+   IS 3858 closed 2021-03-26 Transport close after 1 hour in socket.io 3.1.2 
+   IS 5142 closed 2024-07-19 express-session session and socket.io session cannot be synced.
+   IS 3259 closed 2018-05-26 JS exceptions thrown while just idling (WebSocket is already in CLOSING or CLOSED state.)
+   IS 3507 closed 2019-11-02 Prevent socket io from emitting ping timeout for inactive or not focused browser page in mobile brow
+   IS 3571 closed 2020-04-01 A cookie associated with a cross-site resource was set without the same site..
+   IS 2045 closed 2015-03-09 failed: Connection closed before receiving a handshake response
+   IS 2597 closed 2016-06-24 Question: Are disconnect initiated by peer and disconnect caused by network problem handled differen
+   IS 3192 closed 2018-03-07 Taking long on socket connection (2nd time)
+   IS 3706 closed 2020-11-25 socket.io-client crashes on react-native android
+   IS 2476 closed 2016-03-09 The right way for a client to reconnect after the server does a socket.disconnect( true )
+   IS 1856 closed 2014-11-06 Client gets disconnected after a while
+   IS 2850 closed 2017-02-03 CORS
+   IS 2998 closed 2017-07-06 Throttling client reconnects?
+   IS 2481 closed 2016-03-10 Client reconnect not working properly
+   IS 2338 closed 2015-12-08 Simultaneous connections error timeout Windows Server 2008
+   IS 1738 closed 2014-08-21 IE: jsonp polling iframe removal error
+   IS 1615 closed 2014-06-12 reconnecting event gone?!
+## repo:socketio/socket.io is:pr reconnectionDelayMax -> 0
